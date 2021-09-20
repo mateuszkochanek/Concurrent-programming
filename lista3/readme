@@ -1,0 +1,23 @@
+Mateusz Kochanek, 250083
+Lista 3
+______________________________
+Zad1 w Go
+Przejść do folderu go
+Jak uruchomić:
+a) go run *.go -n ${ilość_węzłów} -d ${ilość_skrótów}
+
+Program wyświetli najpierw strukturę grafu w formie:
+${nr.wierzchołka} --> wierzchołki do których ma połączenia wychodzące dzielone spacją
+
+Potem informacje w trakcie wykonywania.
+______________________________
+Zad1 w Adzie
+Przejść do folderu ada/src
+Jak uruchomić:
+a) gnatmake structures.adb structures.ads main.adb message_graph.adb message_graph.ads
+b) ./main ${ilość_węzłów} ${ilość_skrótów}
+
+Program wyświetli najpierw strukture grafu w formie:
+${nr.wierzchołka} --> wierzchołki do których ma połączenia wychodzące dzielone spacją
+
+Potem informacje w trakcie wykonywania.

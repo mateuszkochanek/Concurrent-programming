@@ -1,0 +1,24 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+/home/erthax/Desktop/Programowanie/Programowanie_współbieżne/lista1/Ada_zad1/zad1.gpr
+20210404204436 c937f7ed6dcce98917279f5402e77fda
+[BOUND OBJECT FILES]
+/home/erthax/Desktop/Programowanie/Programowanie_współbieżne/lista1/Ada_zad1/obj/message_graph.o
+/home/erthax/Desktop/Programowanie/Programowanie_współbieżne/lista1/Ada_zad1/obj/graph_tasks.o
+/home/erthax/Desktop/Programowanie/Programowanie_współbieżne/lista1/Ada_zad1/obj/main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-L/home/erthax/Desktop/Programowanie/Programowanie_współbieżne/lista1/Ada_zad1/obj/
+-L/home/erthax/Desktop/Programowanie/Programowanie_współbieżne/lista1/Ada_zad1/obj/
+-L/home/erthax/opt/GNAT/2020/lib/gcc/x86_64-pc-linux-gnu/9.3.1/adalib/
+-static
+-static-libgcc
+/home/erthax/opt/GNAT/2020/lib/gcc/x86_64-pc-linux-gnu/9.3.1/adalib/libgnarl.a
+/home/erthax/opt/GNAT/2020/lib/gcc/x86_64-pc-linux-gnu/9.3.1/adalib/libgnat.a
+-lrt
+-lpthread
+-ldl

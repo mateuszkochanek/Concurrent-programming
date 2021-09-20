@@ -1,0 +1,37 @@
+asciinema rec lista1.cast
+#############################
+# Student: Mateusz Kochanek
+#  indeks: 250083 
+#  Programowanie Współbieżne, lista 1
+
+#  Pobieram rozwiązania
+######  indeks: 250083 ######
+svn export https://repo.cs.pwr.edu.pl/250083/PW/lista1
+cd lista1
+ls
+
+# zadanie 1 napisane w Go
+cd Go_zad1
+cat main.go
+cat structures.go
+cat threadFunctions.go
+# kompilacja i uruchomienie z 9 węzłami, 10 skrótami i 10 wiadomościami:
+go run *.go -n 9 -d 10 -k 10
+
+# zadanie 1 napisane w Adzie
+cd ../Ada_zad1/src
+cat graph_tasks.adb
+cat graph_tasks.ads
+cat main.adb
+cat message_graph.adb
+cat message_graph.ads
+
+# kompilacja
+gnatmake graph_tasks.adb graph_tasks.ads main.adb message_graph.adb message_graph.ads
+
+# uruchomienie z 9 węzłami, 10 skrótami i 10 wiadomościami:
+./main 9 10 10
+
+# kończę prezentacje:
+exit
+

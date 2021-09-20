@@ -1,0 +1,15 @@
+Mateusz Kochanek, 250083
+Lista 4
+Zadanie zrobiłem tylko w Go
+______________________________
+Zad1 w Go
+Przejść do folderu go
+Jak uruchomić:
+a) go run *.go -n ${ilość_węzłów} -d ${ilość_skrótów} -h ${ilość_hostów_przy_routerze}
+
+Program wyświetli najpierw strukturę grafu w formie:
+${nr.wierzchołka} --> wierzchołki do których ma połączenia wychodzące dzielone spacją
+A potem zacznie działanie. 
+Informacje dotyczące routingu maja ROUTING na początku, te dotyczące
+pakietów standardowych HOSTS. Na początku routing czeka 15 sekund żeby dać czas pakietom na dojście
+do odpowiednich hostów bez zmian w rountigu.

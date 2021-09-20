@@ -1,0 +1,443 @@
+V "GNAT Lib v2020"
+A -gnatA
+A -g
+A -g
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_DELAY
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_NESTED_FINALIZATION
+RV NO_RELATIVE_DELAY
+RV NO_SECONDARY_STACK
+RV NO_SELECT_STATEMENTS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASKING
+RV NO_TERMINATE_ALTERNATIVES
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV MAX_SELECT_ALTERNATIVES=1
+RV MAX_TASK_ENTRIES=2
+RV MAX_TASKS=1
+RV MAX_ENTRY_QUEUE_LENGTH=1+
+
+U graph_tasks%b		graph_tasks.adb		4494942e OO PK
+Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z system%s		system.ads		system.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.concat_4%s	s-conca4.adb		s-conca4.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+Z system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+W text_io%s		text_io.ads		text_io.ali
+
+U graph_tasks%s		graph_tasks.ads		4db5f199 EE OO PF PK
+W ada%s			ada.ads			ada.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+Z ada.containers.generic_array_sort%s
+Z ada.containers.helpers%s  a-conhel.adb	a-conhel.ali
+W ada.containers.vectors%s
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.finalization%s	a-finali.ads		a-finali.ali
+Z ada.iterator_interfaces%s
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+Z ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z ada.streams%s		a-stream.adb		a-stream.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z ada.unchecked_deallocation%s
+Z interfaces%s		interfac.ads		interfac.ali
+W message_graph%s	message_graph.adb	message_graph.ali
+W system%s		system.ads		system.ali
+Z system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+Z system.random_numbers%s  s-rannum.adb		s-rannum.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+Z system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+Z system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+Z system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+Z system.task_info%s	s-tasinf.adb		s-tasinf.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		20200228061809 76789da1 ada%s
+D a-calend.ads		20200228061809 474d9720 ada.calendar%s
+D a-caldel.ads		20200228061809 9f20b83d ada.calendar.delays%s
+D a-contai.ads		20200228061809 61e5e089 ada.containers%s
+D a-cgarso.ads		20200228061809 9129bfa8 ada.containers.generic_array_sort%s
+D a-conhel.ads		20200228061809 20298884 ada.containers.helpers%s
+D a-conhel.adb		20200228061809 e8b6ff51 ada.containers.helpers%b
+D a-convec.ads		20200228061809 7e2b0fdf ada.containers.vectors%s
+D a-convec.adb		20200415050449 0b31d694 ada.containers.vectors%b
+D a-except.ads		20200228061809 a7106115 ada.exceptions%s
+D a-finali.ads		20200228061809 bf4f806b ada.finalization%s
+D a-ioexce.ads		20200228061809 e4a01f64 ada.io_exceptions%s
+D a-iteint.ads		20200228061809 7c7305e9 ada.iterator_interfaces%s
+D a-numeri.ads		20200228061809 bb51c45a ada.numerics%s
+D a-nudira.ads		20200228061809 5984dff3 ada.numerics.discrete_random%s
+D a-nudira.adb		20200228061809 0bfd6ec4 ada.numerics.discrete_random%b
+D a-reatim.ads		20200228061809 0240fc73 ada.real_time%s
+D a-stream.ads		20200228061809 119b8fb3 ada.streams%s
+D a-tags.ads		20200228061809 edddc8f0 ada.tags%s
+D a-textio.ads		20200228061809 aef4d56d ada.text_io%s
+D a-unccon.ads		20200228061809 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20200228061809 eff36322 ada.unchecked_deallocation%s
+D graph_tasks.ads	20210427003408 982f9788 graph_tasks%s
+D graph_tasks.adb	20210427005025 fd09cb3e graph_tasks%b
+D interfac.ads		20200228061809 5ab55268 interfaces%s
+D i-c.ads		20200228061809 c624fa43 interfaces.c%s
+D i-cstrea.ads		20200228061809 e53d8b8e interfaces.c_streams%s
+D message_graph.ads	20210426172005 f235b63d message_graph%s
+D system.ads		20200228061809 4635ec04 system%s
+D s-atacco.ads		20200228061809 4c36d12f system.address_to_access_conversions%s
+D s-atocou.ads		20200228061809 b45c2d8d system.atomic_counters%s
+D s-atocou.adb		20200228061809 b65612c0 system.atomic_counters%b
+D s-conca3.ads		20200228061809 0b705ca5 system.concat_3%s
+D s-conca4.ads		20200228061809 7e642b20 system.concat_4%s
+D s-crtl.ads		20200228061809 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200228061809 54135002 system.exception_table%s
+D s-ficobl.ads		20200228061809 078245e4 system.file_control_block%s
+D s-finmas.ads		20200228061809 7811a767 system.finalization_masters%s
+D s-finroo.ads		20200228061809 4ff27390 system.finalization_root%s
+D s-imgint.ads		20200228061809 02dbe0c2 system.img_int%s
+D s-imguns.ads		20200228061809 9ff43cf7 system.img_uns%s
+D s-linux.ads		20200228061809 ed0b8aee system.linux%s
+D s-memory.ads		20200228061809 597d6634 system.memory%s
+D s-multip.ads		20200228061809 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20200430104914 ffb5e830 system.os_constants%s
+D s-osinte.ads		20200424050625 675bad69 system.os_interface%s
+D s-parame.ads		20200228061809 4752c4cb system.parameters%s
+D s-pooglo.ads		20200228061809 ede33ef8 system.pool_global%s
+D s-rannum.ads		20200228061809 99ade2f2 system.random_numbers%s
+D s-rannum.adb		20200427050432 5f999925 system.random_numbers%b
+D s-ransee.ads		20200228061809 01a57b33 system.random_seed%s
+D s-secsta.ads		20200327060539 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20200228061809 a7318a92 system.soft_links%s
+D s-stache.ads		20200228061809 a37c21ec system.stack_checking%s
+D s-stausa.ads		20200228061809 017a0a05 system.stack_usage%s
+D s-stalib.ads		20200228061809 6b7a13f2 system.standard_library%s
+D s-stalib.adb		20200228061809 f2fe2716 system.standard_library%b
+D s-stoele.ads		20200228061809 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20200228061809 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20200313060446 e9fa2dd8 system.storage_pools%s
+D s-stposu.ads		20200317060514 e251976f system.storage_pools.subpools%s
+D s-stratt.ads		20200424050625 9a2744e9 system.stream_attributes%s
+D s-tasinf.ads		20200228061809 2b3f8252 system.task_info%s
+D s-taspri.ads		20200228061809 f40ac08d system.task_primitives%s
+D s-taprop.ads		20200228061809 6eefbe12 system.task_primitives.operations%s
+D s-taskin.ads		20200228061809 88fba9ad system.tasking%s
+D s-taprob.ads		20200228061809 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20200228061809 60ad3dae system.tasking.protected_objects.entries%s
+D s-tpobop.ads		20200228061809 5f548bb3 system.tasking.protected_objects.operations%s
+D s-tasren.ads		20200228061809 a67a9949 system.tasking.rendezvous%s
+D s-tassta.ads		20200228061809 cca55c94 system.tasking.stages%s
+D s-traent.ads		20200228061809 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200319060539 5ecf7212 system.unsigned_types%s
+D s-valuns.ads		20200228061809 35067db9 system.val_uns%s
+D s-wchcon.ads		20200228061809 1b7d22d2 system.wch_con%s
+D text_io.ads		20200228061809 21b2c898 text_io%s
+G a e
+G c Z s s [random graph_tasks__rand_int 52 13 7_4]
+G c Z s s [random graph_tasks__rand_int 54 13 7_4]
+G c Z s s [reset graph_tasks__rand_int 60 14 7_4]
+G c Z s s [reset graph_tasks__rand_int 61 14 7_4]
+G c Z s s [save graph_tasks__rand_int 67 14 7_4]
+G c Z s s [reset graph_tasks__rand_int 68 14 7_4]
+G c Z s s [image graph_tasks__rand_int 72 13 7_4]
+G c Z s s [value graph_tasks__rand_int 73 13 7_4]
+G c Z s b [taskjunction graph_tasks 11 14 none]
+G c Z s b [terminate_junction graph_tasks__taskjunction 12 13 none]
+G c Z s b [trap_setup graph_tasks__taskjunction 13 13 none]
+G c Z s s [has_element graph_tasks__junction_vectors 107 13 17_4]
+G c Z s s [Oeq graph_tasks__junction_vectors 117 24 17_4]
+G c Z s s [to_vector graph_tasks__junction_vectors 126 13 17_4]
+G c Z s s [to_vector graph_tasks__junction_vectors 129 13 17_4]
+G c Z s s [Oconcat graph_tasks__junction_vectors 135 13 17_4]
+G c Z s s [Oconcat graph_tasks__junction_vectors 139 13 17_4]
+G c Z s s [Oconcat graph_tasks__junction_vectors 143 13 17_4]
+G c Z s s [Oconcat graph_tasks__junction_vectors 147 13 17_4]
+G c Z s s [capacity graph_tasks__junction_vectors 151 13 17_4]
+G c Z s s [reserve_capacity graph_tasks__junction_vectors 154 14 17_4]
+G c Z s s [length graph_tasks__junction_vectors 165 13 17_4]
+G c Z s s [set_length graph_tasks__junction_vectors 168 14 17_4]
+G c Z s s [is_empty graph_tasks__junction_vectors 177 13 17_4]
+G c Z s s [clear graph_tasks__junction_vectors 180 14 17_4]
+G c Z s s [to_cursor graph_tasks__junction_vectors 184 13 17_4]
+G c Z s s [to_index graph_tasks__junction_vectors 191 13 17_4]
+G c Z s s [element graph_tasks__junction_vectors 196 13 17_4]
+G c Z s s [element graph_tasks__junction_vectors 203 13 17_4]
+G c Z s s [replace_element graph_tasks__junction_vectors 207 14 17_4]
+G c Z s s [replace_element graph_tasks__junction_vectors 218 14 17_4]
+G c Z s s [query_element graph_tasks__junction_vectors 229 14 17_4]
+G c Z s s [query_element graph_tasks__junction_vectors 240 14 17_4]
+G c Z s s [update_element graph_tasks__junction_vectors 249 14 17_4]
+G c Z s s [update_element graph_tasks__junction_vectors 266 14 17_4]
+G c Z s s [constant_reference graph_tasks__junction_vectors 293 13 17_4]
+G c Z s s [reference graph_tasks__junction_vectors 298 13 17_4]
+G c Z s s [constant_reference graph_tasks__junction_vectors 303 13 17_4]
+G c Z s s [reference graph_tasks__junction_vectors 308 13 17_4]
+G c Z s s [assign graph_tasks__junction_vectors 313 14 17_4]
+G c Z s s [copy graph_tasks__junction_vectors 315 13 17_4]
+G c Z s s [move graph_tasks__junction_vectors 317 14 17_4]
+G c Z s s [insert graph_tasks__junction_vectors 323 14 17_4]
+G c Z s s [insert graph_tasks__junction_vectors 341 14 17_4]
+G c Z s s [insert graph_tasks__junction_vectors 352 14 17_4]
+G c Z s s [insert graph_tasks__junction_vectors 363 14 17_4]
+G c Z s s [insert graph_tasks__junction_vectors 370 14 17_4]
+G c Z s s [insert graph_tasks__junction_vectors 377 14 17_4]
+G c Z s s [insert graph_tasks__junction_vectors 386 14 17_4]
+G c Z s s [insert graph_tasks__junction_vectors 403 14 17_4]
+G c Z s s [prepend graph_tasks__junction_vectors 414 14 17_4]
+G c Z s s [prepend graph_tasks__junction_vectors 419 14 17_4]
+G c Z s s [append graph_tasks__junction_vectors 426 14 17_4]
+G c Z s s [append graph_tasks__junction_vectors 431 14 17_4]
+G c Z s s [insert_space graph_tasks__junction_vectors 438 14 17_4]
+G c Z s s [insert_space graph_tasks__junction_vectors 455 14 17_4]
+G c Z s s [delete graph_tasks__junction_vectors 466 14 17_4]
+G c Z s s [delete graph_tasks__junction_vectors 476 14 17_4]
+G c Z s s [delete_first graph_tasks__junction_vectors 485 14 17_4]
+G c Z s s [delete_last graph_tasks__junction_vectors 490 14 17_4]
+G c Z s s [reverse_elements graph_tasks__junction_vectors 498 14 17_4]
+G c Z s s [swap graph_tasks__junction_vectors 501 14 17_4]
+G c Z s s [swap graph_tasks__junction_vectors 506 14 17_4]
+G c Z s s [first_index graph_tasks__junction_vectors 512 13 17_4]
+G c Z s s [first graph_tasks__junction_vectors 515 13 17_4]
+G c Z s s [first_element graph_tasks__junction_vectors 519 13 17_4]
+G c Z s s [last_index graph_tasks__junction_vectors 522 13 17_4]
+G c Z s s [last graph_tasks__junction_vectors 526 13 17_4]
+G c Z s s [last_element graph_tasks__junction_vectors 530 13 17_4]
+G c Z s s [next graph_tasks__junction_vectors 533 13 17_4]
+G c Z s s [next graph_tasks__junction_vectors 539 14 17_4]
+G c Z s s [previous graph_tasks__junction_vectors 542 13 17_4]
+G c Z s s [previous graph_tasks__junction_vectors 548 14 17_4]
+G c Z s s [find_index graph_tasks__junction_vectors 551 13 17_4]
+G c Z s s [find graph_tasks__junction_vectors 561 13 17_4]
+G c Z s s [reverse_find_index graph_tasks__junction_vectors 575 13 17_4]
+G c Z s s [reverse_find graph_tasks__junction_vectors 587 13 17_4]
+G c Z s s [contains graph_tasks__junction_vectors 601 13 17_4]
+G c Z s s [iterate graph_tasks__junction_vectors 606 14 17_4]
+G c Z s s [reverse_iterate graph_tasks__junction_vectors 614 14 17_4]
+G c Z s s [iterate graph_tasks__junction_vectors 621 13 17_4]
+G c Z s s [iterate graph_tasks__junction_vectors 624 13 17_4]
+G c Z s s [adjust graph_tasks__junction_vectors__implementation 90 28 678_4_17_4]
+G c Z s s [finalize graph_tasks__junction_vectors__implementation 93 28 678_4_17_4]
+G c Z s s [zero_counts graph_tasks__junction_vectors__implementation 96 17 678_4_17_4]
+G c Z s s [busy graph_tasks__junction_vectors__implementation 100 17 678_4_17_4]
+G c Z s s [unbusy graph_tasks__junction_vectors__implementation 104 17 678_4_17_4]
+G c Z s s [lock graph_tasks__junction_vectors__implementation 108 17 678_4_17_4]
+G c Z s s [unlock graph_tasks__junction_vectors__implementation 112 17 678_4_17_4]
+G c Z s s [tc_check graph_tasks__junction_vectors__implementation 116 17 678_4_17_4]
+G c Z s s [te_check graph_tasks__junction_vectors__implementation 120 17 678_4_17_4]
+G c Z s s [initialize graph_tasks__junction_vectors__implementation 139 28 678_4_17_4]
+G c Z s s [finalize graph_tasks__junction_vectors__implementation 140 28 678_4_17_4]
+G c Z s s [initialize graph_tasks__junction_vectors__implementation 145 28 678_4_17_4]
+G c Z s s [finalize graph_tasks__junction_vectors__implementation 146 28 678_4_17_4]
+G c Z s s [reference_control_typeDA graph_tasks__junction_vectors__implementation 84 12 678_4_17_4]
+G c Z s s [reference_control_typeDF graph_tasks__junction_vectors__implementation 84 12 678_4_17_4]
+G c Z s s [reference_control_typeIP graph_tasks__junction_vectors__implementation 84 12 678_4_17_4]
+G c Z s s [with_busyDF graph_tasks__junction_vectors__implementation 136 12 678_4_17_4]
+G c Z s s [with_busyIP graph_tasks__junction_vectors__implementation 136 12 678_4_17_4]
+G c Z s s [with_lockDF graph_tasks__junction_vectors__implementation 142 12 678_4_17_4]
+G c Z s s [with_lockIP graph_tasks__junction_vectors__implementation 142 12 678_4_17_4]
+G c Z s s [adjust graph_tasks__junction_vectors 699 25 17_4]
+G c Z s s [finalize graph_tasks__junction_vectors 700 25 17_4]
+G c Z s s [write graph_tasks__junction_vectors 702 14 17_4]
+G c Z s s [read graph_tasks__junction_vectors 708 14 17_4]
+G c Z s s [read graph_tasks__junction_vectors 722 14 17_4]
+G c Z s s [write graph_tasks__junction_vectors 728 14 17_4]
+G c Z s s [write graph_tasks__junction_vectors 747 14 17_4]
+G c Z s s [read graph_tasks__junction_vectors 753 14 17_4]
+G c Z s s [write graph_tasks__junction_vectors 769 14 17_4]
+G c Z s s [read graph_tasks__junction_vectors 775 14 17_4]
+G c Z s s [pseudo_reference graph_tasks__junction_vectors 786 13 17_4]
+G c Z s s [get_element_access graph_tasks__junction_vectors 795 13 17_4]
+G c Z s s [cursorIP graph_tasks__junction_vectors 717 9 17_4]
+G c Z s s [vectorDA graph_tasks__junction_vectors 693 9 17_4]
+G c Z s s [vectorDF graph_tasks__junction_vectors 693 9 17_4]
+G c Z s s [vectorIP graph_tasks__junction_vectors 693 9 17_4]
+G c Z s s [constant_reference_typeDI graph_tasks__junction_vectors 737 9 17_4]
+G c Z s s [constant_reference_typeDA graph_tasks__junction_vectors 737 9 17_4]
+G c Z s s [constant_reference_typeDF graph_tasks__junction_vectors 737 9 17_4]
+G c Z s s [constant_reference_typeIP graph_tasks__junction_vectors 737 9 17_4]
+G c Z s s [reference_typeDI graph_tasks__junction_vectors 759 9 17_4]
+G c Z s s [reference_typeDA graph_tasks__junction_vectors 759 9 17_4]
+G c Z s s [reference_typeDF graph_tasks__junction_vectors 759 9 17_4]
+G c Z s s [reference_typeIP graph_tasks__junction_vectors 759 9 17_4]
+G c Z s s [finalize graph_tasks__junction_vectors 811 25 17_4]
+G c Z s s [first graph_tasks__junction_vectors 813 24 17_4]
+G c Z s s [last graph_tasks__junction_vectors 814 24 17_4]
+G c Z s s [next graph_tasks__junction_vectors 816 24 17_4]
+G c Z s s [previous graph_tasks__junction_vectors 820 24 17_4]
+G c Z s s [elements_arrayIP graph_tasks__junction_vectors 681 9 17_4]
+G c Z s s [elements_typeIP graph_tasks__junction_vectors 684 9 17_4]
+G c Z s s [iteratorDF graph_tasks__junction_vectors 803 9 17_4]
+G c Z s s [iteratorIP graph_tasks__junction_vectors 803 9 17_4]
+G c Z s s [free graph_tasks__junction_vectors 41 14 17_4]
+G c Z s s [append_slow_path graph_tasks__junction_vectors 44 14 17_4]
+G c Z s b [tasksource graph_tasks 24 14 none]
+G c Z s b [send graph_tasks__tasksource 25 13 none]
+G c Z s b [taskhunter graph_tasks 29 14 none]
+G c Z s b [terminate_hunter graph_tasks__taskhunter 30 13 none]
+G c Z s b [taskoutlet graph_tasks 34 14 none]
+G c Z s b [terminate_outlet graph_tasks__taskoutlet 35 13 none]
+G c Z s b [messagerTK graph_tasks 39 9 none]
+G c Z s b [print graph_tasks__messager 40 13 none]
+G c Z s s [messagerTKVIP graph_tasks 39 4 none]
+G c Z s s [P694sIP graph_tasks 40 7 none]
+G c Z s s [taskjunctionVIP graph_tasks 11 4 none]
+G c Z s s [P685sIP graph_tasks 25 7 none]
+G c Z s s [tasksourceVIP graph_tasks 24 4 none]
+G c Z s s [taskhunterVIP graph_tasks 29 4 none]
+G c Z s s [taskoutletVIP graph_tasks 34 4 none]
+G r o none [terminate_junction graph_tasks__taskjunction 12 13 none] [get message_graph__pipe 18 13 none]
+G r o none [terminate_junction graph_tasks__taskjunction 12 13 none] [set message_graph__pipe 17 13 none]
+G r o none [trap_setup graph_tasks__taskjunction 13 13 none] [get message_graph__pipe 18 13 none]
+G r o none [trap_setup graph_tasks__taskjunction 13 13 none] [set message_graph__pipe 17 13 none]
+G r o none [taskjunction graph_tasks 11 14 none] [get message_graph__pipe 18 13 none]
+G r o none [taskjunction graph_tasks 11 14 none] [set message_graph__pipe 17 13 none]
+G r o none [send graph_tasks__tasksource 25 13 none] [set message_graph__pipe 17 13 none]
+G r o none [tasksource graph_tasks 24 14 none] [set message_graph__pipe 17 13 none]
+G r o none [terminate_hunter graph_tasks__taskhunter 30 13 none] [get message_graph__pipe 18 13 none]
+G r o none [terminate_hunter graph_tasks__taskhunter 30 13 none] [set message_graph__pipe 17 13 none]
+G r o none [taskhunter graph_tasks 29 14 none] [get message_graph__pipe 18 13 none]
+G r o none [taskhunter graph_tasks 29 14 none] [set message_graph__pipe 17 13 none]
+G r o none [terminate_outlet graph_tasks__taskoutlet 35 13 none] [get message_graph__pipe 18 13 none]
+G r o none [taskoutlet graph_tasks 34 14 none] [get message_graph__pipe 18 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 23|2r6 3r6 7r28 17r36
+X 4 a-contai.ads
+16K13*Containers 28e19 23|2r10 17r40
+22I9*Count_Type<integer>
+X 8 a-convec.ads
+61I9 Index_Type 23|18r7
+62+9 Element_Type 23|19r7
+73k24*Vectors 824e27 23|2w21 17r51
+88R9*Vector<11|43R9> 23|20r66[17]
+165V13*Length{4|22I9} 24|12s57[28|33] 40s57[28|33] 41s55[28|33] 130s42[23|17]
+431U14*Append 24|20s36[28|5] 21s35[28|5] 49s39[28|5] 50s38[28|5] 54s39[28|5]
+. 55s38[28|5] 60s39[28|5] 61s38[28|5] 93s36[28|5] 94s35[28|5]
+X 13 a-iteint.ads
+24h9 Forward_Iterator
+32h9 Reversible_Iterator<24R9[8|111]>
+X 14 a-numeri.ads
+16K13*Numerics 32e17 23|3r10 7r32
+X 15 a-nudira.ads
+44k22*Discrete_Random 81e33 23|3w19 7r41
+50R9*Generator<49|63R9> 23|9r10[7]
+52V13*Random{23|6I9} 24|19s39[23|7] 22s40[23|7] 58s42[23|7] 59s43[23|7] 89s33[23|7]
+. 133s28[23|7]
+61U14*Reset<49|100p14> 24|11s7[23|7] 39s7[23|7]
+X 16 a-nudira.adb
+53V16 Random[49|83]{23|6I9} 50|393b13[23|7]
+65V16 Random[49|83]{23|6I9} 50|393b13[23|7]
+X 20 a-textio.ads
+508U14*Put_Line 24|116s16
+X 23 graph_tasks.ads
+4K9*Graph_Tasks 44l5 44e16 24|3b14 147l5 147t16
+6I9*randRange<integer> 7r57
+7K12*Rand_Int[15|44] 8r8
+9r4*gen{15|50R9[7]} 24|11r13 19r46 22r47 39r13 58r49 59r50 89r40 133r35
+11T14*TaskJunction 11d27 14l8 14e20 15r39 24|31b14 82l8 82t20
+11p27 node{28|43P9} 24|40r40 41r39 43r25 46r107 48r112 49r46 50r19 53r121
+. 54r46 55r19 60r46 61r19 62r19
+12Y13 Terminate_Junction 24|69b20 71l17 71t35
+13Y13 Trap_Setup 24|73b20 75l17 75t27 134s31
+15P9*TaskJunction_Access(11T14) 19r23
+17K12*Junction_Vectors[8|73] 20r49
+20P9*TaskJunctionVector_Access(8|88R9[17]) 29r37
+22i4*Sending_Delay{integer} 24|19r56 58r59 89r50
+24T14*TaskSource 24d25 24d45 26l8 26e18 27r37 24|5b14 29l8 29t18
+24p25 node{28|43P9} 24|12r40 20r43 21r16 23r16
+24i45 k{integer} 24|27r30
+25Y13 Send 25>19 24|15b20 24l17 24t21
+25p19 myPacket{28|14P9} 24|16r26
+27P9*TaskSource_Access(24T14)
+29T14*TaskHunter 29d25 31l8 31e18 32r37 24|124b14 144l8 144t18
+29p25 junctions{20P9} 24|130r32 134r10
+30Y13 Terminate_Hunter 24|136b20 138l17 138t33
+32P9*TaskHunter_Access(29T14)
+34T14*TaskOutlet 34d25 36l8 36e18 37r37 24|84b14 109l8 109t18
+34p25 node{28|43P9} 24|90r25 93r43 94r16
+35Y13 Terminate_Outlet 24|101b20 103l17 103t33
+37P9*TaskOutlet_Access(34T14)
+39t9*Messager 24|18r16 46r16 48r19 53r19 95r16 111b14 122l8 122t16
+40Y13 Print 40>19 24|18s25 46s25 48s28 53s28 95s25 115b20 117l17 117t22
+40a19 msg{string} 24|116r26
+X 24 graph_tasks.adb
+6p7 packet{28|14P9} 16m16 18r55 20r16 21r42 23r56
+7i7 Random_Index{integer} 22m16 23r33
+8i7 Output_Channels_Count{integer} 12m7 22r57
+9i7 counter{integer} 17m16 17r27 27r20
+15p26 myPacket{28|14P9}
+32p7 packet{28|14P9} 45m33 45r33 46r55 47r19 48r58 49r19 50r45 53r58 54r19
+. 55r45 57r19 57r33 60r19 61r45 62r59
+33i7 Random_Index{integer} 59m19 62r36
+34b7 stop{boolean} 70m16 80r20
+35i7 Output_Channels_Count{integer} 40m7 59r60
+36i7 Input_Channels_Count{integer} 41m7
+37b7 isTrapped{boolean} 51r22 52m19 74m16
+43p14 channel{28|31P9} 45r16
+85p7 packet{28|14P9} 92m33 92r33 93r16 94r42 95r55
+86b7 stop{boolean} 102m19 107r20
+90p14 channel{28|31P9} 92r16
+115a27 msg{string}
+125b7 stop{boolean} 137m19 142r20
+126i7 junctions_len{integer} 130m7 133r45
+127i7 index{integer} 133m10 134r24
+X 25 interfac.ads
+74M9*Unsigned_32
+77M9*Unsigned_64
+X 28 message_graph.ads
+3K9*Message_Graph 23|1w6 1r25 28|47e18
+10i7*index{integer} 24|18r62 21r49 46r62 48r65 50r52 53r65 55r52 61r52 94r49
+. 95r62
+11r7*visitedNodes{8|88R9[5]} 24|20m23 49m26 54m26 60m26 93m23
+12i7*ttl{integer} 24|47r26 57m26 57r40
+14P9*Packet_Access(9R9) 23|25r30 24|6r16 15r37 32r16 85r16
+17Y13 Set 24|23s52 62s55
+18Y13 Get 24|45s29 92s29
+23P9*Pipe_Access(16W19)
+27p7*pipe{23P9} 24|23r47 45r24 62r50 92r24
+31P9*Channel_Access(25R9)
+38i7*index{integer} 24|20r48 46r112 48r117 49r51 53r126 54r51 60r51 93r48
+39r7*inputPipes{8|88R9[33]} 24|41r44 43r30 90r30
+40r7*outputPipes{8|88R9[33]} 24|12r45 23r21 40r45 62r24
+41r7*servedPackets{8|88R9[5]} 24|21m21 50m24 55m24 61m24 94m21
+43P9*Node_Access(37R9) 23|11r34 24r32 34r32
+X 29 system.ads
+67M9*Address
+X 43 s-memory.ads
+53V13*Alloc{29|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{29|67M9} 105i<c,__gnat_realloc>22
+X 49 s-rannum.ads
+75V13*Random{25|74M9} 50|221i21
+76V13*Random{25|77M9} 50|221i21
+X 55 s-stausa.ads
+208U14*Initialize 209i<c,__gnat_stack_usage_initialize>22
+273U14*Output_Results 277i<c,__gnat_stack_usage_output_results>22
+X 57 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+X 76 text_io.ads
+24K9*Text_IO=24:29 24|1w6 1r19
+

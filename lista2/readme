@@ -1,0 +1,33 @@
+Mateusz Kochanek, 250083
+Lista 2
+Zadanie 1 i Zadanie 2 zrobiłem jednocześnie.
+______________________________
+Zad1 i Zad2 w Go
+Przejść do folderu Go_zad1_zad2
+Jak uruchomić:
+a) go run *.go -n ${ilość_węzłów} -d ${ilość_skrótów} -k ${ilość_wiadomości} -b ${ilość_dróg_powrotnych} -h ${czas_życia_pakietu}
+
+Program wyświetli najpierw strukturę grafu w formie:
+${nr.wierzchołka} --> wierzchołki do których ma połączenia wychodzące dzielone spacją
+
+Potem informacje w trakcie wykonywania.
+
+A na końcu podsumowanie wyników:
+Najpierw numery węzłów razem z zestawieniem pakietów które zostały przez nie obsłużone, a potem
+pakiety zestawieniami węzłów przez które przeszły.
+
+______________________________
+Zad1 i Zad2 w Adzie
+Przejść do folderu Ada_zad1_zad2
+Jak uruchomić:
+a) gnatmake graph_tasks.adb graph_tasks.ads main.adb message_graph.adb message_graph.ads
+b) ./main ${ilość_węzłów} ${ilość_skrótów} ${ilość_dróg_powrotnych} ${ilość_wiadomości} ${czas_życia_pakietu}
+
+Program wyświetli najpierw strukture grafu w formie:
+${nr.wierzchołka} --> wierzchołki do których ma połączenia wychodzące dzielone spacją
+
+Potem informacje w trakcie wykonywania.
+
+A na końcu podsumowanie wyników:
+Najpierw numery węzłów razem z zestawieniem pakietów które zostały przez nie obsłużone, a potem
+pakiety zestawieniami węzłów przez które przeszły.

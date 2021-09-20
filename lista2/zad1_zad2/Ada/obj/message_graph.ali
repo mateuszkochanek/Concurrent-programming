@@ -1,0 +1,430 @@
+V "GNAT Lib v2020"
+A -gnatA
+A -g
+A -g
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV SIMPLE_BARRIERS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_PROTECTED_TYPES
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV MAX_PROTECTED_ENTRIES=2
+
+U message_graph%b	message_graph.adb	490cd6d0 NE OO PK
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z system%s		system.ads		system.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+Z system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+
+U message_graph%s	message_graph.ads	8c1eb9e2 EE OO PF PK
+W ada%s			ada.ads			ada.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+Z ada.containers.generic_array_sort%s
+Z ada.containers.helpers%s  a-conhel.adb	a-conhel.ali
+W ada.containers.vectors%s
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.finalization%s	a-finali.ads		a-finali.ali
+Z ada.iterator_interfaces%s
+Z ada.streams%s		a-stream.adb		a-stream.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z ada.unchecked_deallocation%s
+Z interfaces%s		interfac.ads		interfac.ali
+Z system%s		system.ads		system.ali
+Z system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+Z system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+Z system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+Z system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+
+D ada.ads		20200228061809 76789da1 ada%s
+D a-contai.ads		20200228061809 61e5e089 ada.containers%s
+D a-cgarso.ads		20200228061809 9129bfa8 ada.containers.generic_array_sort%s
+D a-conhel.ads		20200228061809 20298884 ada.containers.helpers%s
+D a-conhel.adb		20200228061809 e8b6ff51 ada.containers.helpers%b
+D a-convec.ads		20200228061809 7e2b0fdf ada.containers.vectors%s
+D a-convec.adb		20200415050449 0b31d694 ada.containers.vectors%b
+D a-except.ads		20200228061809 a7106115 ada.exceptions%s
+D a-finali.ads		20200228061809 bf4f806b ada.finalization%s
+D a-iteint.ads		20200228061809 7c7305e9 ada.iterator_interfaces%s
+D a-stream.ads		20200228061809 119b8fb3 ada.streams%s
+D a-tags.ads		20200228061809 edddc8f0 ada.tags%s
+D a-unccon.ads		20200228061809 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20200228061809 eff36322 ada.unchecked_deallocation%s
+D interfac.ads		20200228061809 5ab55268 interfaces%s
+D i-c.ads		20200228061809 c624fa43 interfaces.c%s
+D message_graph.ads	20210426172005 f235b63d message_graph%s
+D message_graph.adb	20210404151248 bb3960ed message_graph%b
+D system.ads		20200228061809 4635ec04 system%s
+D s-atacco.ads		20200228061809 4c36d12f system.address_to_access_conversions%s
+D s-atocou.ads		20200228061809 b45c2d8d system.atomic_counters%s
+D s-atocou.adb		20200228061809 b65612c0 system.atomic_counters%b
+D s-exctab.ads		20200228061809 54135002 system.exception_table%s
+D s-finmas.ads		20200228061809 7811a767 system.finalization_masters%s
+D s-finroo.ads		20200228061809 4ff27390 system.finalization_root%s
+D s-linux.ads		20200228061809 ed0b8aee system.linux%s
+D s-memory.ads		20200228061809 597d6634 system.memory%s
+D s-multip.ads		20200228061809 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20200430104914 ffb5e830 system.os_constants%s
+D s-osinte.ads		20200424050625 675bad69 system.os_interface%s
+D s-parame.ads		20200228061809 4752c4cb system.parameters%s
+D s-pooglo.ads		20200228061809 ede33ef8 system.pool_global%s
+D s-secsta.ads		20200327060539 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20200228061809 a7318a92 system.soft_links%s
+D s-stache.ads		20200228061809 a37c21ec system.stack_checking%s
+D s-stausa.ads		20200228061809 017a0a05 system.stack_usage%s
+D s-stalib.ads		20200228061809 6b7a13f2 system.standard_library%s
+D s-stalib.adb		20200228061809 f2fe2716 system.standard_library%b
+D s-stoele.ads		20200228061809 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20200228061809 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20200313060446 e9fa2dd8 system.storage_pools%s
+D s-stposu.ads		20200317060514 e251976f system.storage_pools.subpools%s
+D s-stratt.ads		20200424050625 9a2744e9 system.stream_attributes%s
+D s-tasinf.ads		20200228061809 2b3f8252 system.task_info%s
+D s-taspri.ads		20200228061809 f40ac08d system.task_primitives%s
+D s-taskin.ads		20200228061809 88fba9ad system.tasking%s
+D s-taprob.ads		20200228061809 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20200228061809 60ad3dae system.tasking.protected_objects.entries%s
+D s-tpobop.ads		20200228061809 5f548bb3 system.tasking.protected_objects.operations%s
+D s-traent.ads		20200228061809 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200319060539 5ecf7212 system.unsigned_types%s
+G a e
+G c Z s s [has_element message_graph__integer_vectors 107 13 5_4]
+G c Z s s [Oeq message_graph__integer_vectors 117 24 5_4]
+G c Z s s [to_vector message_graph__integer_vectors 126 13 5_4]
+G c Z s s [to_vector message_graph__integer_vectors 129 13 5_4]
+G c Z s s [Oconcat message_graph__integer_vectors 135 13 5_4]
+G c Z s s [Oconcat message_graph__integer_vectors 139 13 5_4]
+G c Z s s [Oconcat message_graph__integer_vectors 143 13 5_4]
+G c Z s s [Oconcat message_graph__integer_vectors 147 13 5_4]
+G c Z s s [capacity message_graph__integer_vectors 151 13 5_4]
+G c Z s s [reserve_capacity message_graph__integer_vectors 154 14 5_4]
+G c Z s s [length message_graph__integer_vectors 165 13 5_4]
+G c Z s s [set_length message_graph__integer_vectors 168 14 5_4]
+G c Z s s [is_empty message_graph__integer_vectors 177 13 5_4]
+G c Z s s [clear message_graph__integer_vectors 180 14 5_4]
+G c Z s s [to_cursor message_graph__integer_vectors 184 13 5_4]
+G c Z s s [to_index message_graph__integer_vectors 191 13 5_4]
+G c Z s s [element message_graph__integer_vectors 196 13 5_4]
+G c Z s s [element message_graph__integer_vectors 203 13 5_4]
+G c Z s s [replace_element message_graph__integer_vectors 207 14 5_4]
+G c Z s s [replace_element message_graph__integer_vectors 218 14 5_4]
+G c Z s s [query_element message_graph__integer_vectors 229 14 5_4]
+G c Z s s [query_element message_graph__integer_vectors 240 14 5_4]
+G c Z s s [update_element message_graph__integer_vectors 249 14 5_4]
+G c Z s s [update_element message_graph__integer_vectors 266 14 5_4]
+G c Z s s [constant_reference message_graph__integer_vectors 293 13 5_4]
+G c Z s s [reference message_graph__integer_vectors 298 13 5_4]
+G c Z s s [constant_reference message_graph__integer_vectors 303 13 5_4]
+G c Z s s [reference message_graph__integer_vectors 308 13 5_4]
+G c Z s s [assign message_graph__integer_vectors 313 14 5_4]
+G c Z s s [copy message_graph__integer_vectors 315 13 5_4]
+G c Z s s [move message_graph__integer_vectors 317 14 5_4]
+G c Z s s [insert message_graph__integer_vectors 323 14 5_4]
+G c Z s s [insert message_graph__integer_vectors 341 14 5_4]
+G c Z s s [insert message_graph__integer_vectors 352 14 5_4]
+G c Z s s [insert message_graph__integer_vectors 363 14 5_4]
+G c Z s s [insert message_graph__integer_vectors 370 14 5_4]
+G c Z s s [insert message_graph__integer_vectors 377 14 5_4]
+G c Z s s [insert message_graph__integer_vectors 386 14 5_4]
+G c Z s s [insert message_graph__integer_vectors 403 14 5_4]
+G c Z s s [prepend message_graph__integer_vectors 414 14 5_4]
+G c Z s s [prepend message_graph__integer_vectors 419 14 5_4]
+G c Z s s [append message_graph__integer_vectors 426 14 5_4]
+G c Z s s [append message_graph__integer_vectors 431 14 5_4]
+G c Z s s [insert_space message_graph__integer_vectors 438 14 5_4]
+G c Z s s [insert_space message_graph__integer_vectors 455 14 5_4]
+G c Z s s [delete message_graph__integer_vectors 466 14 5_4]
+G c Z s s [delete message_graph__integer_vectors 476 14 5_4]
+G c Z s s [delete_first message_graph__integer_vectors 485 14 5_4]
+G c Z s s [delete_last message_graph__integer_vectors 490 14 5_4]
+G c Z s s [reverse_elements message_graph__integer_vectors 498 14 5_4]
+G c Z s s [swap message_graph__integer_vectors 501 14 5_4]
+G c Z s s [swap message_graph__integer_vectors 506 14 5_4]
+G c Z s s [first_index message_graph__integer_vectors 512 13 5_4]
+G c Z s s [first message_graph__integer_vectors 515 13 5_4]
+G c Z s s [first_element message_graph__integer_vectors 519 13 5_4]
+G c Z s s [last_index message_graph__integer_vectors 522 13 5_4]
+G c Z s s [last message_graph__integer_vectors 526 13 5_4]
+G c Z s s [last_element message_graph__integer_vectors 530 13 5_4]
+G c Z s s [next message_graph__integer_vectors 533 13 5_4]
+G c Z s s [next message_graph__integer_vectors 539 14 5_4]
+G c Z s s [previous message_graph__integer_vectors 542 13 5_4]
+G c Z s s [previous message_graph__integer_vectors 548 14 5_4]
+G c Z s s [find_index message_graph__integer_vectors 551 13 5_4]
+G c Z s s [find message_graph__integer_vectors 561 13 5_4]
+G c Z s s [reverse_find_index message_graph__integer_vectors 575 13 5_4]
+G c Z s s [reverse_find message_graph__integer_vectors 587 13 5_4]
+G c Z s s [contains message_graph__integer_vectors 601 13 5_4]
+G c Z s s [iterate message_graph__integer_vectors 606 14 5_4]
+G c Z s s [reverse_iterate message_graph__integer_vectors 614 14 5_4]
+G c Z s s [iterate message_graph__integer_vectors 621 13 5_4]
+G c Z s s [iterate message_graph__integer_vectors 624 13 5_4]
+G c Z s s [adjust message_graph__integer_vectors__implementation 90 28 678_4_5_4]
+G c Z s s [finalize message_graph__integer_vectors__implementation 93 28 678_4_5_4]
+G c Z s s [zero_counts message_graph__integer_vectors__implementation 96 17 678_4_5_4]
+G c Z s s [busy message_graph__integer_vectors__implementation 100 17 678_4_5_4]
+G c Z s s [unbusy message_graph__integer_vectors__implementation 104 17 678_4_5_4]
+G c Z s s [lock message_graph__integer_vectors__implementation 108 17 678_4_5_4]
+G c Z s s [unlock message_graph__integer_vectors__implementation 112 17 678_4_5_4]
+G c Z s s [tc_check message_graph__integer_vectors__implementation 116 17 678_4_5_4]
+G c Z s s [te_check message_graph__integer_vectors__implementation 120 17 678_4_5_4]
+G c Z s s [initialize message_graph__integer_vectors__implementation 139 28 678_4_5_4]
+G c Z s s [finalize message_graph__integer_vectors__implementation 140 28 678_4_5_4]
+G c Z s s [initialize message_graph__integer_vectors__implementation 145 28 678_4_5_4]
+G c Z s s [finalize message_graph__integer_vectors__implementation 146 28 678_4_5_4]
+G c Z s s [reference_control_typeDA message_graph__integer_vectors__implementation 84 12 678_4_5_4]
+G c Z s s [reference_control_typeDF message_graph__integer_vectors__implementation 84 12 678_4_5_4]
+G c Z s s [reference_control_typeIP message_graph__integer_vectors__implementation 84 12 678_4_5_4]
+G c Z s s [with_busyDF message_graph__integer_vectors__implementation 136 12 678_4_5_4]
+G c Z s s [with_busyIP message_graph__integer_vectors__implementation 136 12 678_4_5_4]
+G c Z s s [with_lockDF message_graph__integer_vectors__implementation 142 12 678_4_5_4]
+G c Z s s [with_lockIP message_graph__integer_vectors__implementation 142 12 678_4_5_4]
+G c Z s s [adjust message_graph__integer_vectors 699 25 5_4]
+G c Z s s [finalize message_graph__integer_vectors 700 25 5_4]
+G c Z s s [write message_graph__integer_vectors 702 14 5_4]
+G c Z s s [read message_graph__integer_vectors 708 14 5_4]
+G c Z s s [read message_graph__integer_vectors 722 14 5_4]
+G c Z s s [write message_graph__integer_vectors 728 14 5_4]
+G c Z s s [write message_graph__integer_vectors 747 14 5_4]
+G c Z s s [read message_graph__integer_vectors 753 14 5_4]
+G c Z s s [write message_graph__integer_vectors 769 14 5_4]
+G c Z s s [read message_graph__integer_vectors 775 14 5_4]
+G c Z s s [pseudo_reference message_graph__integer_vectors 786 13 5_4]
+G c Z s s [get_element_access message_graph__integer_vectors 795 13 5_4]
+G c Z s s [cursorIP message_graph__integer_vectors 717 9 5_4]
+G c Z s s [vectorDA message_graph__integer_vectors 693 9 5_4]
+G c Z s s [vectorDF message_graph__integer_vectors 693 9 5_4]
+G c Z s s [vectorIP message_graph__integer_vectors 693 9 5_4]
+G c Z s s [constant_reference_typeDI message_graph__integer_vectors 737 9 5_4]
+G c Z s s [constant_reference_typeDA message_graph__integer_vectors 737 9 5_4]
+G c Z s s [constant_reference_typeDF message_graph__integer_vectors 737 9 5_4]
+G c Z s s [constant_reference_typeIP message_graph__integer_vectors 737 9 5_4]
+G c Z s s [reference_typeDI message_graph__integer_vectors 759 9 5_4]
+G c Z s s [reference_typeDA message_graph__integer_vectors 759 9 5_4]
+G c Z s s [reference_typeDF message_graph__integer_vectors 759 9 5_4]
+G c Z s s [reference_typeIP message_graph__integer_vectors 759 9 5_4]
+G c Z s s [finalize message_graph__integer_vectors 811 25 5_4]
+G c Z s s [first message_graph__integer_vectors 813 24 5_4]
+G c Z s s [last message_graph__integer_vectors 814 24 5_4]
+G c Z s s [next message_graph__integer_vectors 816 24 5_4]
+G c Z s s [previous message_graph__integer_vectors 820 24 5_4]
+G c Z s s [elements_arrayIP message_graph__integer_vectors 681 9 5_4]
+G c Z s s [elements_typeIP message_graph__integer_vectors 684 9 5_4]
+G c Z s s [iteratorDF message_graph__integer_vectors 803 9 5_4]
+G c Z s s [iteratorIP message_graph__integer_vectors 803 9 5_4]
+G c Z s s [free message_graph__integer_vectors 41 14 5_4]
+G c Z s s [append_slow_path message_graph__integer_vectors 44 14 5_4]
+G c Z s b [set message_graph__pipe 17 13 none]
+G c Z s b [get message_graph__pipe 18 13 none]
+G c Z s s [has_element message_graph__channel_vectors 107 13 33_4]
+G c Z s s [Oeq message_graph__channel_vectors 117 24 33_4]
+G c Z s s [to_vector message_graph__channel_vectors 126 13 33_4]
+G c Z s s [to_vector message_graph__channel_vectors 129 13 33_4]
+G c Z s s [Oconcat message_graph__channel_vectors 135 13 33_4]
+G c Z s s [Oconcat message_graph__channel_vectors 139 13 33_4]
+G c Z s s [Oconcat message_graph__channel_vectors 143 13 33_4]
+G c Z s s [Oconcat message_graph__channel_vectors 147 13 33_4]
+G c Z s s [capacity message_graph__channel_vectors 151 13 33_4]
+G c Z s s [reserve_capacity message_graph__channel_vectors 154 14 33_4]
+G c Z s s [length message_graph__channel_vectors 165 13 33_4]
+G c Z s s [set_length message_graph__channel_vectors 168 14 33_4]
+G c Z s s [is_empty message_graph__channel_vectors 177 13 33_4]
+G c Z s s [clear message_graph__channel_vectors 180 14 33_4]
+G c Z s s [to_cursor message_graph__channel_vectors 184 13 33_4]
+G c Z s s [to_index message_graph__channel_vectors 191 13 33_4]
+G c Z s s [element message_graph__channel_vectors 196 13 33_4]
+G c Z s s [element message_graph__channel_vectors 203 13 33_4]
+G c Z s s [replace_element message_graph__channel_vectors 207 14 33_4]
+G c Z s s [replace_element message_graph__channel_vectors 218 14 33_4]
+G c Z s s [query_element message_graph__channel_vectors 229 14 33_4]
+G c Z s s [query_element message_graph__channel_vectors 240 14 33_4]
+G c Z s s [update_element message_graph__channel_vectors 249 14 33_4]
+G c Z s s [update_element message_graph__channel_vectors 266 14 33_4]
+G c Z s s [constant_reference message_graph__channel_vectors 293 13 33_4]
+G c Z s s [reference message_graph__channel_vectors 298 13 33_4]
+G c Z s s [constant_reference message_graph__channel_vectors 303 13 33_4]
+G c Z s s [reference message_graph__channel_vectors 308 13 33_4]
+G c Z s s [assign message_graph__channel_vectors 313 14 33_4]
+G c Z s s [copy message_graph__channel_vectors 315 13 33_4]
+G c Z s s [move message_graph__channel_vectors 317 14 33_4]
+G c Z s s [insert message_graph__channel_vectors 323 14 33_4]
+G c Z s s [insert message_graph__channel_vectors 341 14 33_4]
+G c Z s s [insert message_graph__channel_vectors 352 14 33_4]
+G c Z s s [insert message_graph__channel_vectors 363 14 33_4]
+G c Z s s [insert message_graph__channel_vectors 370 14 33_4]
+G c Z s s [insert message_graph__channel_vectors 377 14 33_4]
+G c Z s s [insert message_graph__channel_vectors 386 14 33_4]
+G c Z s s [insert message_graph__channel_vectors 403 14 33_4]
+G c Z s s [prepend message_graph__channel_vectors 414 14 33_4]
+G c Z s s [prepend message_graph__channel_vectors 419 14 33_4]
+G c Z s s [append message_graph__channel_vectors 426 14 33_4]
+G c Z s s [append message_graph__channel_vectors 431 14 33_4]
+G c Z s s [insert_space message_graph__channel_vectors 438 14 33_4]
+G c Z s s [insert_space message_graph__channel_vectors 455 14 33_4]
+G c Z s s [delete message_graph__channel_vectors 466 14 33_4]
+G c Z s s [delete message_graph__channel_vectors 476 14 33_4]
+G c Z s s [delete_first message_graph__channel_vectors 485 14 33_4]
+G c Z s s [delete_last message_graph__channel_vectors 490 14 33_4]
+G c Z s s [reverse_elements message_graph__channel_vectors 498 14 33_4]
+G c Z s s [swap message_graph__channel_vectors 501 14 33_4]
+G c Z s s [swap message_graph__channel_vectors 506 14 33_4]
+G c Z s s [first_index message_graph__channel_vectors 512 13 33_4]
+G c Z s s [first message_graph__channel_vectors 515 13 33_4]
+G c Z s s [first_element message_graph__channel_vectors 519 13 33_4]
+G c Z s s [last_index message_graph__channel_vectors 522 13 33_4]
+G c Z s s [last message_graph__channel_vectors 526 13 33_4]
+G c Z s s [last_element message_graph__channel_vectors 530 13 33_4]
+G c Z s s [next message_graph__channel_vectors 533 13 33_4]
+G c Z s s [next message_graph__channel_vectors 539 14 33_4]
+G c Z s s [previous message_graph__channel_vectors 542 13 33_4]
+G c Z s s [previous message_graph__channel_vectors 548 14 33_4]
+G c Z s s [find_index message_graph__channel_vectors 551 13 33_4]
+G c Z s s [find message_graph__channel_vectors 561 13 33_4]
+G c Z s s [reverse_find_index message_graph__channel_vectors 575 13 33_4]
+G c Z s s [reverse_find message_graph__channel_vectors 587 13 33_4]
+G c Z s s [contains message_graph__channel_vectors 601 13 33_4]
+G c Z s s [iterate message_graph__channel_vectors 606 14 33_4]
+G c Z s s [reverse_iterate message_graph__channel_vectors 614 14 33_4]
+G c Z s s [iterate message_graph__channel_vectors 621 13 33_4]
+G c Z s s [iterate message_graph__channel_vectors 624 13 33_4]
+G c Z s s [adjust message_graph__channel_vectors__implementation 90 28 678_4_33_4]
+G c Z s s [finalize message_graph__channel_vectors__implementation 93 28 678_4_33_4]
+G c Z s s [zero_counts message_graph__channel_vectors__implementation 96 17 678_4_33_4]
+G c Z s s [busy message_graph__channel_vectors__implementation 100 17 678_4_33_4]
+G c Z s s [unbusy message_graph__channel_vectors__implementation 104 17 678_4_33_4]
+G c Z s s [lock message_graph__channel_vectors__implementation 108 17 678_4_33_4]
+G c Z s s [unlock message_graph__channel_vectors__implementation 112 17 678_4_33_4]
+G c Z s s [tc_check message_graph__channel_vectors__implementation 116 17 678_4_33_4]
+G c Z s s [te_check message_graph__channel_vectors__implementation 120 17 678_4_33_4]
+G c Z s s [initialize message_graph__channel_vectors__implementation 139 28 678_4_33_4]
+G c Z s s [finalize message_graph__channel_vectors__implementation 140 28 678_4_33_4]
+G c Z s s [initialize message_graph__channel_vectors__implementation 145 28 678_4_33_4]
+G c Z s s [finalize message_graph__channel_vectors__implementation 146 28 678_4_33_4]
+G c Z s s [reference_control_typeDA message_graph__channel_vectors__implementation 84 12 678_4_33_4]
+G c Z s s [reference_control_typeDF message_graph__channel_vectors__implementation 84 12 678_4_33_4]
+G c Z s s [reference_control_typeIP message_graph__channel_vectors__implementation 84 12 678_4_33_4]
+G c Z s s [with_busyDF message_graph__channel_vectors__implementation 136 12 678_4_33_4]
+G c Z s s [with_busyIP message_graph__channel_vectors__implementation 136 12 678_4_33_4]
+G c Z s s [with_lockDF message_graph__channel_vectors__implementation 142 12 678_4_33_4]
+G c Z s s [with_lockIP message_graph__channel_vectors__implementation 142 12 678_4_33_4]
+G c Z s s [adjust message_graph__channel_vectors 699 25 33_4]
+G c Z s s [finalize message_graph__channel_vectors 700 25 33_4]
+G c Z s s [write message_graph__channel_vectors 702 14 33_4]
+G c Z s s [read message_graph__channel_vectors 708 14 33_4]
+G c Z s s [read message_graph__channel_vectors 722 14 33_4]
+G c Z s s [write message_graph__channel_vectors 728 14 33_4]
+G c Z s s [write message_graph__channel_vectors 747 14 33_4]
+G c Z s s [read message_graph__channel_vectors 753 14 33_4]
+G c Z s s [write message_graph__channel_vectors 769 14 33_4]
+G c Z s s [read message_graph__channel_vectors 775 14 33_4]
+G c Z s s [pseudo_reference message_graph__channel_vectors 786 13 33_4]
+G c Z s s [get_element_access message_graph__channel_vectors 795 13 33_4]
+G c Z s s [cursorIP message_graph__channel_vectors 717 9 33_4]
+G c Z s s [vectorDA message_graph__channel_vectors 693 9 33_4]
+G c Z s s [vectorDF message_graph__channel_vectors 693 9 33_4]
+G c Z s s [vectorIP message_graph__channel_vectors 693 9 33_4]
+G c Z s s [constant_reference_typeDI message_graph__channel_vectors 737 9 33_4]
+G c Z s s [constant_reference_typeDA message_graph__channel_vectors 737 9 33_4]
+G c Z s s [constant_reference_typeDF message_graph__channel_vectors 737 9 33_4]
+G c Z s s [constant_reference_typeIP message_graph__channel_vectors 737 9 33_4]
+G c Z s s [reference_typeDI message_graph__channel_vectors 759 9 33_4]
+G c Z s s [reference_typeDA message_graph__channel_vectors 759 9 33_4]
+G c Z s s [reference_typeDF message_graph__channel_vectors 759 9 33_4]
+G c Z s s [reference_typeIP message_graph__channel_vectors 759 9 33_4]
+G c Z s s [finalize message_graph__channel_vectors 811 25 33_4]
+G c Z s s [first message_graph__channel_vectors 813 24 33_4]
+G c Z s s [last message_graph__channel_vectors 814 24 33_4]
+G c Z s s [next message_graph__channel_vectors 816 24 33_4]
+G c Z s s [previous message_graph__channel_vectors 820 24 33_4]
+G c Z s s [elements_arrayIP message_graph__channel_vectors 681 9 33_4]
+G c Z s s [elements_typeIP message_graph__channel_vectors 684 9 33_4]
+G c Z s s [iteratorDF message_graph__channel_vectors 803 9 33_4]
+G c Z s s [iteratorIP message_graph__channel_vectors 803 9 33_4]
+G c Z s s [free message_graph__channel_vectors 41 14 33_4]
+G c Z s s [append_slow_path message_graph__channel_vectors 44 14 33_4]
+G c Z s s [packetDI message_graph 9 9 none]
+G c Z s s [packetDA message_graph 9 9 none]
+G c Z s s [packetDF message_graph 9 9 none]
+G c Z s s [packetIP message_graph 9 9 none]
+G c Z s s [pipeVDI message_graph 16 4 none]
+G c Z s s [pipeVDF message_graph 16 4 none]
+G c Z s s [pipeVIP message_graph 16 4 none]
+G c Z s s [P677sIP message_graph 17 7 none]
+G c Z s s [P680sIP message_graph 18 7 none]
+G c Z s s [channelIP message_graph 25 9 none]
+G c Z s s [nodeDI message_graph 37 9 none]
+G c Z s s [nodeDA message_graph 37 9 none]
+G c Z s s [nodeDF message_graph 37 9 none]
+G c Z s s [nodeIP message_graph 37 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 17|1r6 5r35 33r35
+X 2 a-contai.ads
+16K13*Containers 28e19 17|1r10 5r39 33r39
+X 6 a-convec.ads
+61I9 Index_Type 17|6r7 34r7
+62+9 Element_Type 17|7r7 35r7
+73k24*Vectors 824e27 17|1w21 5r50 33r50
+88R9*Vector<9|43R9> 17|11r37[5] 39r35[33] 40r36[33] 41r38[5]
+X 10 a-iteint.ads
+24h9 Forward_Iterator
+32h9 Reversible_Iterator<24R9[6|111]>
+X 17 message_graph.ads
+3K9*Message_Graph 47l5 47e18 18|1b14 18l5 18t18
+5K12*Integer_Vectors[6|73] 11r21 41r22
+9R9*Packet 13e14 14r33
+10i7*index{integer}
+11r7*visitedNodes{6|88R9[5]}
+12i7*ttl{integer}
+14P9*Packet_Access(9R9) 17r24 18r25 20r15 18|4r25 10r26
+16W19*Pipe 20E7 22l8 22e12 23r31 18|3b19 15l8 15t12
+17Y13 Set 17>17 18|4b13 8l11 8t14
+17p17 V{14P9} 18|6r19
+18Y13 Get 18<17 18|10b13 14l11 14t14
+18p17 V{14P9} 18|12m10
+20p7 Value{14P9} 18|6r10 12r15
+21b7 Is_Full{boolean} 18|4r49 7r10 10r46 13r10
+23P9*Pipe_Access(16W19) 27r13
+25R9*Channel 30e14 31r34
+26i7*index{integer}
+27p7*pipe{23P9}
+28i7*beginNode{integer}
+29i7*endNode{integer}
+31P9*Channel_Access(25R9) 35r23
+33K12*Channel_Vectors[6|73] 39r19 40r20
+37R9*Node 42e14 43r31
+38i7*index{integer}
+39r7*inputPipes{6|88R9[33]}
+40r7*outputPipes{6|88R9[33]}
+41r7*servedPackets{6|88R9[5]}
+43P9*Node_Access(37R9)
+X 18 message_graph.adb
+4p18 V{17|14P9}
+10p18 V{17|14P9}
+X 19 system.ads
+67M9*Address
+X 27 s-memory.ads
+53V13*Alloc{19|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{19|67M9} 105i<c,__gnat_realloc>22
+X 36 s-stausa.ads
+208U14*Initialize 209i<c,__gnat_stack_usage_initialize>22
+273U14*Output_Results 277i<c,__gnat_stack_usage_output_results>22
+X 38 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+
